@@ -9,10 +9,18 @@ html {
 }
 
 body {
-    background-color: #0a0a0a;
-    font-family: sans-serif;
-    color: #c62d2d;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #0a0a0a;
+  color: #c62d2d;
+  font-family: 'Courier New', Courier, monospace;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .menu-toggle {
@@ -121,6 +129,19 @@ body {
     text-shadow: 0 0 5px white !important;
 }
 
+.info {
+    color: #666; 
+    margin-left: 20px; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .overlay {
     display: none;
     position: fixed;
@@ -130,6 +151,31 @@ body {
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
     z-index: 998;
+}
+
+main {
+    color: white;
+}
+
+main p {
+    color: red;
+}
+
+main .end {
+    text-align: right;
+}
+
+main .line {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
+
+main .made {
+    margin-right: 25px;
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -148,7 +194,7 @@ body {
     transform: translateX(0);
     }
 
-    .inhalt {
+    main {
     margin-left: 0;
     padding: 80px 20px 30px 20px;
     }
@@ -157,21 +203,4 @@ body {
     display: block;
     }
 
-}
-
-.end {
-    text-align: right;
-}
-
-.line {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 2px;
-    background-color: grey;
-}
-
-.made {
-    margin-right: 25px;
-    font-size: 12px;
 }
