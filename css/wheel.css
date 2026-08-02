@@ -136,105 +136,105 @@ main {
     margin-left: 260px;
     padding: 50px;
     transition: filter 0.3s ease;
+}
 
-    .title {
-        font-size: 30px;
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 0px;
-        margin-bottom: 25px;
-        color: white;
-    }
+main .title {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: white;
+}
 
-    h2 {
-        font-size: 17px;
-        color: white;
-    }
+main h2 {
+    font-size: 17px;
+    color: white;
+}
 
-    h1 {
-        font-size: 25px;
-        color: white;
-    }
+main h1 {
+    font-size: 25px;
+    color: white;
+}
 
-    p {
+main p {
         color: #888888;
+}
 
-        .info {
-        color: #666; 
-        margin-left: 20px; 
-        }
-    }
+main .info {
+    color: #666; 
+    margin-left: 20px; 
+}
     
-    .teams {
-        h2 {
-            font-size: 17px;
-        }
-        h1 {
-            font-size: 25px;
-        }
-        p {
-            color: #888888;
-        }
-    }
+main .teams h2 {
+    font-size: 17px;
+}
+    
+main .teams h1 {
+    font-size: 25px;
+}
+    
+main .teams p {
+    color: #888888;
+}
 
-    .example {
-        display: flex;
-        flex-direction: row;
-        margin-top: 25px;
+main .example {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
 
-        .line {
-            margin-top: 8px;
-            margin-left: 10px;
-            margin-bottom: 10px;
-            width: 100%;
-            height: 2px;
-            background-color: grey;
-        }
-    }
+main .example .line {
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
 
-    table {
-            border-collapse: collapse;
-            width: 40%;
-            color: white;
-        }
+main table {
+    border-collapse: collapse;
+    width: 40%;
+    color: white;
+}
 
-    th, td {
-        border: 1px solid rgb(142, 140, 140);
-        padding: 8px;
-        text-align: left;
-    }
+main th, td {
+    border: 1px solid rgb(142, 140, 140);
+    padding: 8px;
+    text-align: left;
+}
 
-    th {
-        background-color: rgb(204, 2, 249);
-        color: black;
-    }
+main th {
+    background-color: rgb(204, 2, 249);
+    color: black;
+}
 
-    .space {
-        width: auto;
-        height: 70px;
-    }
+main .space {
+    width: auto;
+    height: 70px;
+}
 
-    .space2 {
-        width: auto;
-        height: 40px;
-    }
+main .space2 {
+    width: auto;
+    height: 40px;
+}
 
-    .end {
+main .end {
     text-align: right;
-    }
+}
 
-    .line {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        width: 100%;
-        height: 2px;
-        background-color: grey;
-    }
+main .line {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
 
-    .made {
-        margin-right: 25px;
-        font-size: 12px;
-    }
+main .made {
+    margin-right: 25px;
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
