@@ -9,10 +9,18 @@ html {
 }
 
 body {
-    background-color: #0a0a0a;
-    font-family: sans-serif;
-    color: #c62d2d;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #0a0a0a;
+  color: #c62d2d;
+  font-family: 'Courier New', Courier, monospace;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .menu-toggle {
@@ -248,5 +256,4 @@ main .made {
     .overlay.aktiv {
     display: block;
     }
-
 }
