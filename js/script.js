@@ -19,9 +19,6 @@
       menuBtn.textContent = '_> MENU';
     });
 
-
-
-
     const titleText = "Registry";
         let isDeleting = false;
         let currentText = '';
