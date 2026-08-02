@@ -9,10 +9,18 @@ html {
 }
 
 body {
-    background-color: #0a0a0a;
-    font-family: sans-serif;
-    color: #c62d2d;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #0a0a0a;
+  color: #c62d2d;
+  font-family: 'Courier New', Courier, monospace;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .menu-toggle {
@@ -171,6 +179,28 @@ h2 {
     z-index: 998;
 }
 
+.spac {
+    width: auto;
+    height: 700px;
+}
+
+.end {
+    text-align: right;
+}
+
+.line {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
+
+.made {
+    margin-right: 25px;
+    font-size: 12px;
+}
+
 @media (max-width: 768px) {
 
     .menu-toggle {
@@ -195,27 +225,4 @@ h2 {
     .overlay.aktiv {
     display: block;
     }
-
-}
-
-.spac {
-    width: auto;
-    height: 700px;
-}
-
-.end {
-    text-align: right;
-}
-
-.line {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 2px;
-    background-color: grey;
-}
-
-.made {
-    margin-right: 25px;
-    font-size: 12px;
 }
